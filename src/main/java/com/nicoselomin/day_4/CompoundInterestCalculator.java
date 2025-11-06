@@ -1,11 +1,13 @@
 package com.nicoselomin.day_4;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CompoundInterestCalculator {
     static void main(String[] args) {
         // Create Scanner
         Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.US);
         System.out.println("=== Compound Interest Calculator ===");
 
         // Prompt and read principal, rate, time (years)
